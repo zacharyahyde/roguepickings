@@ -1,0 +1,155 @@
+/***** BASE STYLES *****/
+
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 23px;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+nav {
+	float: right;
+	line-height: 23px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	color: #77a466;
+	padding-left: 23px;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	color: #77a466;
+	line-height: 23px;
+}
+
+#about p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** MENU *****/
+
+#menu {
+	padding: 10px 0;
+	text-align: center;
+}
+
+#menu h3 {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+#menu p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #77a466;
+}
+
+/***** REVIEWS *****/
+
+#reviews h3 {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+#reviews p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#reviews {
+	text-align: center;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+
+/***** LOCATIONS *****/
+
+#locations {
+	text-align: center;
+}
+
+#locations h3 {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+#location p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#menu, #reviews, #locations {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
+
